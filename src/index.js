@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import {appConstants as constants} from 'appConstants';
 import AppLayout from './appLayout';
-import '../node_modules/materialize-css/dist/css/materialize.css';
+//import '../node_modules/materialize-css/dist/css/materialize.css';
 import '../public/assets/sass/style.scss';
 import rootReducer from './rootReducer'
 

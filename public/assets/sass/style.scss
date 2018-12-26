@@ -1,13 +1,5 @@
 @charset "UTF-8";
-
-
-// Mixins
-@import "components/mixins";
-@import "components/color";
-
-// Variables;
-// @import "components/variables";
-
+@import "./materialize";
 // Theme;
 /*
   Tip: You can change the theme name here to generate new default style, you can also create your own !
@@ -16,7 +8,6 @@
 
 // Variables;
 @import "theme-components/variables";
-
 // Components
 @import "theme-components/global";
 @import "theme-components/helper";

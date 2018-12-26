@@ -9,16 +9,13 @@ class RightSideNav extends Component {
             isSideNavOpen: false
         };
     }
-    // toggleProfileBtn = () => {
-    //     debugger;
-    //     this.setState({ isSideNavOpen: !this.state.isSideNavOpen });
-    // }
+   
     render() {
         debugger;
         const {isRightNavOpen, toggleRightNav } = this.props;
         return (
             <Fragment>
-               
+              
                 <ul id="chat-out" class={isRightNavOpen ? "side-nav rightside-navigation right-aligned right-navout" : "side-nav rightside-navigation right-aligned"}>
                     <li class="li-hover">
                         <div class="row">
