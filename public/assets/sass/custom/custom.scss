@@ -1,0 +1,56 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 4.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+/* General Overlay */
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color: transparent;
+    z-index: 996;
+    will-change: opacity;
+}
+
+/* Left SideNav Open And Clode  */
+.side-nav.slideOut {
+    transform: translateX(0px);
+}
+/* Right SideNav Open And Clode  */
+.side-nav.right-navout {
+    transform: translateX(0px);
+    z-index:1000;
+}
+#sidenav-overlay{
+    opacity: 0.5;
+    background-color: black;
+}
+#rightSide-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    z-index: 999;
+    will-change: opacity;
+    opacity: 0.5;
+    background-color: black;
+}
+/* onClick show showDropDown */
+.showDropDown{
+    white-space: nowrap;
+    opacity: 1;
+    right:20px;
+    position: absolute;
+    top: 64px;
+    display: block;
+}
