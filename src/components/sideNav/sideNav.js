@@ -51,19 +51,19 @@ class SideNav extends Component {
                   <div className="collapsible-body">
                     <ul>
                       <li>
-                        <a href="https://pixinvent.com/materialize-material-design-admin-template/html/collapsible-menu/">
+                        <a href="#">
                           <i className="material-icons">keyboard_arrow_right</i>
                           <span> Collapsible Menu</span>
                         </a>
                       </li>
                       <li>
-                        <a href="https://pixinvent.com/materialize-material-design-admin-template/html/semi-dark-menu/">
+                        <a href="#">
                           <i className="material-icons">keyboard_arrow_right</i>
                           <span> Semi Dark Menu</span>
                         </a>
                       </li>
                       <li>
-                        <a href="https://pixinvent.com/materialize-material-design-admin-template/html/fixed-menu/">
+                        <a href="#">
                           <i className="material-icons">keyboard_arrow_right</i>
                           <span> Fixed Menu</span>
                         </a>
@@ -75,7 +75,7 @@ class SideNav extends Component {
                         </a>
                       </li>
                       <li>
-                        <a href="https://pixinvent.com/materialize-material-design-admin-template/html/horizontal-menu/">
+                        <a href="#">
                           <i className="material-icons">keyboard_arrow_right</i>
                           <span>Horizontal Menu</span>
                         </a>

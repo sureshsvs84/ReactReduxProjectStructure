@@ -7,8 +7,8 @@ class Footer extends React.Component{
               <div className="footer-copyright">
                 <div className="container">
                   <span>Copyright © 2018
-                        <a className="grey-text text-lighten-4" href="http://themeforest.net/user/pixinvent/portfolio?ref=pixinvent" >PIXINVENT</a> All rights reserved.</span>
-                  <span className="right hide-on-small-only"> Design and Developed by <a className="grey-text text-lighten-4" href="https://pixinvent.com/">PIXINVENT</a></span>
+                        <a className="grey-text text-lighten-4" href="#" >NETSERV</a> All rights reserved.</span>
+                  <span className="right hide-on-small-only"> Design and Developed by <a className="grey-text text-lighten-4" href="#">NETSERV</a></span>
                 </div>
               </div>
             </footer>
